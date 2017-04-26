@@ -1,0 +1,38 @@
+{
+    "name":"moviequotes",
+    "version":"0.0.0",
+    "author":"",
+    "location":"nolanerck/moviequotes#v0.0.0",
+    "homepage":"https://github.com/nolanerck/moviequotes",
+    "documentation":"https://github.com/nolanerck/moviequotes",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/nolanerck/moviequotes"
+    },
+    "bugs":"https://github.com/nolanerck/moviequotes/issues",
+    "slug":"moviequotes",
+    "shortDescription":"Outputs a random quote from a (maybe) popular movie.",
+    "description":"Outputs a random quote from a (maybe) popular movie.",
+    "type":"modules",
+    "dependencies":{
+        
+    },
+    "devDependencies":{
+        "coldbox":"^4.3.0+188",
+        "testbox":"^2.4.0+80"
+    },
+    "installPaths":{
+        "testbox":"testbox",
+        "coldbox":"tests/resources/app/coldbox"
+    },
+    "scripts":{
+        "postVersion":"package set location='nolanerck/moviequotes#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push && !git push --tags"
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
