@@ -1,8 +1,8 @@
 {
     "name":"moviequotes",
-    "version":"0.0.0",
+    "version":"0.1.0",
     "author":"",
-    "location":"nolanerck/moviequotes#v0.0.0",
+    "location":"nolanerck/moviequotes#v0.1.0",
     "homepage":"https://github.com/nolanerck/moviequotes",
     "documentation":"https://github.com/nolanerck/moviequotes",
     "repository":{
@@ -35,8 +35,7 @@
         "test",
         "tests"
     ],
-    testbox:{
+    "testbox":{
         "runner":"http://127.0.0.1/tests/runner.cfm"
     }
-
 }
