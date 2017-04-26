@@ -4,7 +4,8 @@ component {
     this.author = "";
     this.webUrl = "https://github.com/nolanerck/moviequotes";
 
-    function configure() {
+    function configure() 
+    {
         //
     }
 }
